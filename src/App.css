@@ -27,7 +27,26 @@
 .App-link {
   color: #61dafb;
 }
-
+img, svg {
+  vertical-align: middle;
+  width: 100%;
+}
+section.firstsec {
+  padding: 5% 0;
+}
+nav.navbar.navbar-light.bg-faded {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.col-md-6.padding-card {
+  padding: 0px 5%;
+  color: #fff;
+}
+.container {
+  margin-top: 45px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
